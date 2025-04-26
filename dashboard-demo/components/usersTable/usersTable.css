@@ -1,0 +1,137 @@
+.users-topbar {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 110px;
+}
+
+.users-title-column {
+  display: flex;
+  margin-right: auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.users-search-column {
+  display: flex;
+  align-items: center;
+}
+
+#users-search {
+  border: 2px solid rgba(28, 126, 217, 0.2);
+  width: 100%;
+  max-width: 243px;
+  border-radius: 11px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 27px;
+  margin-right: 20px;
+}
+
+#users-search::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.015em;
+  color: #979797;
+}
+
+.edit-button {
+  border: none;
+}
+
+.download-button {
+  background-color: #ddf7ff;
+  border: 1px solid rgba(145, 158, 171, 1);
+  color: #1c7ed9;
+  font-size: 15px;
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px 4px 10px;
+  width: 100%;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.add-button {
+  background-color: #ddf7ff;
+  border: 1px solid rgba(145, 158, 171, 1);
+  color: #1c7ed9;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  border-radius: 9px;
+  display: inline-flex;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 60px;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.add-button:hover {
+  transition: 0.3s;
+  background: #1c7ed9;
+  color: #ddf7ff;
+}
+
+.add-user-button {
+  background-color: #ddf7ff;
+  border: 1px solid rgba(145, 158, 171, 1);
+  color: #1c7ed9;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  border-radius: 9px;
+  display: inline-flex;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 60px;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.add-user-button:hover {
+  transition: 0.3s;
+  background: #1c7ed9;
+  color: #ddf7ff;
+}
+
+.users-title {
+  margin-top: 17px;
+  margin-left: 28px;
+  margin-right: auto;
+}
+
+.users-tablehead {
+  border: 1px solid rgba(145, 158, 171, 1);
+  border-radius: 15px !important;
+}
+
+.user-box {
+  display: inline-flex;
+  min-width: 1px;
+}
+
+.user-avatar-container {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.user-avatar {
+  padding: 3px;
+  border-radius: 50%;
+  margin-right: 40px;
+  margin-left: 40px;
+  object-fit: contain;
+  background: #e5e4e2;
+}
+
+.table-row-css {
+  padding: 16px;
+}

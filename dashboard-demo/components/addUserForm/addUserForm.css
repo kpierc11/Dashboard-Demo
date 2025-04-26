@@ -1,0 +1,13 @@
+.au-photo-form-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.au-form-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 25px;
+  flex-direction: row;
+}

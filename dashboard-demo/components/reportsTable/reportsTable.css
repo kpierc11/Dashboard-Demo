@@ -1,0 +1,119 @@
+.reports-topbar {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 110px;
+}
+
+.reports-title-column {
+  display: flex;
+  margin-right: auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.reports-search-column {
+  display: flex;
+  align-items: center;
+}
+
+#reports-search {
+  border: 2px solid rgba(28, 126, 217, 0.2);
+  width: 100%;
+  max-width: 243px;
+  border-radius: 11px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 27px;
+  margin-right: 20px;
+}
+
+#reports-search::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.015em;
+  color: #979797;
+}
+
+.edit-button {
+  border: none;
+}
+
+.download-button {
+  background-color: #ddf7ff;
+  border: 1px solid rgba(145, 158, 171, 1);
+  color: #1c7ed9;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 95px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #ddf7ff;
+  border: 1px solid rgba(145, 158, 171, 1);
+  color: #1c7ed9;
+  text-align: center;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  border-radius: 9px;
+  margin-right: 15px;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  max-width: 120px;
+  cursor: pointer;
+  margin-right: 60px;
+  text-align: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.add-button:hover {
+  transition: 0.3s;
+  background: #1c7ed9;
+  color: #ddf7ff;
+}
+
+.reports-title {
+  margin-top: 17px;
+  margin-left: 78px;
+  margin-right: auto;
+}
+
+.reports-tablehead {
+  border: 1px solid rgba(145, 158, 171, 1);
+  background-color: rgba(242, 242, 242, 1);
+  border-radius: 15px !important;
+}
+
+.popover-buttons {
+  width: 100% !important;
+  max-width: 100px !important;
+  min-width: auto !important;
+  padding: 0 !important;
+  text-transform: none !important;
+}
+
+.popover-buttons:hover {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+.edit-report-dots {
+  padding: 0 !important;
+}
+
+.edit-report-dots:hover {
+  background-color: transparent !important;
+}

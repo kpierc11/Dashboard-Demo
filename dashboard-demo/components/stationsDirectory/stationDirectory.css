@@ -1,0 +1,89 @@
+.directory-buttons {
+  display: inline-flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+.lightblue-button {
+  background-color: #ddf7ff;
+  border: 1px solid rgba(145, 158, 171, 1);
+  color: #1c7ed9;
+  text-align: center;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  margin-right: 15px;
+  display: inline-flex;
+  align-items: center;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+.directory-title {
+  margin-left: 20px;
+}
+
+.directory-search-container {
+  margin-top: 20px;
+  top: 0;
+  right: 0;
+  max-width: 243px;
+  width: 243px;
+}
+
+#directory-search {
+  border: 2px solid rgba(28, 126, 217, 0.2);
+  width: 100%;
+  max-width: 243px;
+  border-radius: 11px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 27px;
+  margin-right: 20px;
+  background-color: #f9f9f9;
+}
+
+#directory-search::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.015em;
+  color: #979797;
+}
+
+.edit-button {
+  border: none;
+}
+
+.stations-directory-topbar {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 110px;
+}
+
+.stations-title-column {
+  display: flex;
+  margin-right: auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.stations-directory-search-column {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.directory-title {
+  margin-top: 17px;
+  margin-left: 78px;
+  margin-right: auto;
+}

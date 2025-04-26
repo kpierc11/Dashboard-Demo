@@ -1,0 +1,61 @@
+.station-card-main-container {
+  border: 1px solid #505050;
+  border-radius: 15px;
+  margin-bottom: 24px;
+}
+
+.station-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 56px;
+  padding-top: 47px;
+  padding-bottom: 39px;
+}
+
+.station-card-col {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: auto;
+  margin-bottom: 23px;
+}
+
+.station-card-heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.015em;
+}
+
+.station-card-icons {
+  display: flex;
+  margin-right: 82px;
+  color: #1c7ed9;
+}
+
+.icon-hover {
+  transition: 0.2s;
+}
+
+.icon-hover:hover {
+  color: #83bfd2;
+  transition: 0.2s;
+}
+
+.station-card-icons a {
+  margin-right: 28px;
+}
+
+@media (max-width: 1000px) {
+  .station-card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .station-card-main-container {
+    height: auto;
+  }
+}

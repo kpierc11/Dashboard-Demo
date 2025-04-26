@@ -1,0 +1,33 @@
+.stations-page-search-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 37px;
+  margin-bottom: 26px;
+}
+
+#stations-page-search {
+  border: 2px solid rgba(28, 126, 217, 0.2);
+  width: 100%;
+  max-width: 344px;
+  border-radius: 10px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 27px;
+}
+
+#stations-page-search::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.015em;
+  color: #979797;
+}
+
+@media (max-width: 860px) {
+  .stations-page-search-container {
+    display: none;
+  }
+}

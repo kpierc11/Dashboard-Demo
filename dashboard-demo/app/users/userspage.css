@@ -1,0 +1,10 @@
+.tester {
+    font-size: 20rem;
+    color: pink;
+  }
+  @media (max-width: 800px) {
+    .tester {
+      color: blue;
+    }
+  }
+  
