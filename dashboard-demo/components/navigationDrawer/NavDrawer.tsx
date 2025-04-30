@@ -23,10 +23,10 @@ export default function NavDrawer() {
       <Toolbar />
       <Box sx={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <img
-          src={"/HBS-TM-logo-400px.webp"}
+          src={"/monsters-inc-logo.png"}
           height={100}
           width={150}
-          alt="hydrobioscience logo"
+          alt="Monsters inc logo"
         ></img>
       </Box>
       <h1 style={{ paddingLeft: 27, marginTop: 27, fontSize: 20 }}>General</h1>
