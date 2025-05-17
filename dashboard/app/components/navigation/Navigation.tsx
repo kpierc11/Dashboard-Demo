@@ -91,7 +91,7 @@ export default function Navigation(props: Props) {
               <ListItemIcon>
                 <SatelliteAltIcon />
               </ListItemIcon>
-              <ListItemText primary="MyH2Oinfo ™" />
+              <ListItemText primary="Dashboard" />
             </ListItemButton>
           </MuiLink>
         </ListItem>
